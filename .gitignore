@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables
+.env
+.env.*
+.flaskenv
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.sqlite3
+*.db
+*.bak
+/tmp/
+
+# MediaRecorder output (if directly saved locally, though usually handled in-memory)
+*.webm
+*.wav
+*.mp3
+
+# Compiled Murf client files (if any are generated/cached outside the murf package itself)
+# (Less common, but good to include if you observe them)
+murf_cache/
+murf_temp/
